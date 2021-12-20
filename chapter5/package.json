@@ -1,0 +1,14 @@
+{
+    "name": "chapter5",
+    "version": "1.0.0",
+    "description": "",
+    "main": "adjacency-list.js",
+    "scripts": {},
+    "keywords": [],
+    "type": "module",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}
