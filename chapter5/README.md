@@ -11,5 +11,6 @@
 > dfs.js : DFS 기초 <br>
 > dijkstra-algorithm.js : 데이크스트라 알고리즘 <br>
 > floyd-warshall-algorithm.js : 플로이드 워셜 알고리즘 <br>
+> kruskal-algorithm.js : 크루스칼 알고리즘 <br>
 
 <br>
