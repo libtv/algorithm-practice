@@ -8,5 +8,6 @@
 > high-order-sum.js : high order의 합 계산 <br>
 > range-minimum-query.js : 구간 최소 질의 <br>
 > range-sum-query.js : 구간 합 질의 <br>
+> segment-tree.js : 구간트리 합 질의 <br>
 
 <br>
