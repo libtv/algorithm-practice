@@ -1,3 +1,5 @@
+// 2진 인덱스 트리
+
 let arr = [0, 1, 3, 4, 8, 6, 1, 4, 2];
 
 function process(x, y) {
