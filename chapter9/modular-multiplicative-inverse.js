@@ -1,4 +1,4 @@
-function factorization(n) {
+function factorization(n, callback) {
     let a = new Set();
     let i = 2;
     let temp = n;
@@ -15,18 +15,21 @@ function factorization(n) {
     let result = temp;
 
     for (const iter of a) {
-        result *= q(iter);
-    }
-
-    function q(n) {
-        return 1 - 1 / n;
+        result *= callback(iter);
     }
 
     return result;
 }
 
 function inv(m, x) {
-    return x ** (factorization(m) - 1) % m;
+    return (
+        x **
+            (factorization(m, (n) => {
+                return 1 - 1 / n;
+            }) -
+                1) %
+        m
+    );
 }
 
 console.log(inv(17, 6));
